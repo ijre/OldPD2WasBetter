@@ -1,0 +1,22 @@
+{
+  "name": "Old Payday 2 Was Better",
+  "author": "ijre and Lyra Keaton",
+  "description": "game SUX i go to BED",
+  "hooks":
+  [
+    {
+      "hook_id": "lib/units/beings/player/playerdamage",
+      "script_path": "OldUppers.lua"
+    }
+  ],
+  "updates":
+  [
+    {
+      "identifier": "OldPD2WasBetter",
+      "host":
+      {
+        "meta": "https://github.com/ijre/OldPD2WasBetter/releases/download/OPD2WB/meta.json"
+      }
+    }
+  ]
+}
